@@ -1,12 +1,14 @@
 plugins {
-    id("mcve-convention-plugin")
+//    id("mcve-convention-plugin")
+    id("mcve-java-plugin-kotlin")
 }
 
-apply plugin: "mcve-java-plugin-kotlin"
+//apply plugin: "mcve-java-plugin-kotlin"
 
 dependencies {
     // https://mvnrepository.com/artifact/org.slf4j/slf4j-api
-    implementation group: 'org.slf4j', name: 'slf4j-api', version: '2.0.5'
+//    implementation group: 'org.slf4j', name: 'slf4j-api', version: '2.0.5'
+    implementation (platform("com.example.gradle.platform"))
 
 }
 
