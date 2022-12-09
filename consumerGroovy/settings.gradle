@@ -1,15 +1,20 @@
 pluginManagement {
-    includeBuild("../mcve-convention-plugin")
+//    includeBuild("../mcve-convention-plugin")
     repositories {
         mavenLocal()
     }
+}
 
+plugins {
+    id("mcve-convention-plugin") version "1.0.0-SNAPSHOT"
 }
 
 dependencyResolutionManagement {
     repositories {
         mavenCentral()
     }
+
+
 }
 
 

@@ -10,5 +10,8 @@ dependencyResolutionManagement {
 }
 
 
+plugins {
+    id("mcve-convention-plugin")
+}
 
 rootProject.name = "consumerKotlin"

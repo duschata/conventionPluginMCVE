@@ -1,8 +1,8 @@
 plugins {
-    id("mcve-convention-plugin")
+    id("mcve-java-plugin-kotlin")
 }
 
-apply plugin: "mcve-java-plugin-kotlin"
+//apply plugin: "mcve-java-plugin-kotlin"
 
 dependencies {
     // https://mvnrepository.com/artifact/org.slf4j/slf4j-api
